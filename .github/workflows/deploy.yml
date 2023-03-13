@@ -2,7 +2,7 @@ name: test
 
 on:
   # Triggers the workflow
-  release:
+  push:
     branches: [master]
     
 jobs:
